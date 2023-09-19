@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{DFBCC974-B26E-4E21-A057-A8CC9EA22924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{3E267135-FDDF-41B8-880E-C80DEF681CAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{9F6BD906-3CEE-4CFD-AB59-655CB43EACB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7F1A8BA3-D7F0-4CEF-99D1-223102CC9903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Services.CouponAPI", "Mongo.Services.CouponAPI\Mongo.Services.CouponAPI.csproj", "{D56EB50B-4692-4734-AF44-7307293D8BF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56EB50B-4692-4734-AF44-7307293D8BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56EB50B-4692-4734-AF44-7307293D8BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56EB50B-4692-4734-AF44-7307293D8BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56EB50B-4692-4734-AF44-7307293D8BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D56EB50B-4692-4734-AF44-7307293D8BF7} = {7F1A8BA3-D7F0-4CEF-99D1-223102CC9903}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44DEFA95-062C-4EAD-BD92-C9E7B40E802C}
+	EndGlobalSection
+EndGlobal
